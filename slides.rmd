@@ -2,7 +2,7 @@
 title: "GRAN"
 subtitle: "A Homemade Package Repository and Manager"
 author: "Adam Rawles"
-date: "2023/03/22 (updated: `r Sys.Date()`)"
+date: "2023-03-22 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     css: ["default", "shinobi", "extra.css"]
@@ -627,9 +627,7 @@ Let's see if we can fix these...
 
 --
 
-- If we look at the documentation, we can see that `install.packages()` uses the `download.file.method` and `download.file.extra` options to decide which method and which command-line arguments to use
-
-    + Or we can provide the same arguments via the `method` and `extra` parameters
+- If we look at the documentation, we can see that `install.packages()` uses the `method` and `extra` parameters to decide which download method and which command-line arguments to use
 
 --
 
