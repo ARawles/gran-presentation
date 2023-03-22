@@ -1,0 +1,34 @@
+.half-size, .half-size > pre > code {
+  font-size: 0.8em !important;
+}
+
+.big-gap {
+  line-height: 3em;
+}
+
+.gran-title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
+}
+
+:root {
+  --code-text-color: #2958af;
+}
+
+.pad-line {
+  line-height: 3em;
+}
+
+a > code.remark-inline-code, a > code.remark-code {
+  color: var(--link-color);
+}
+
+.grViz {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.top-padded {
+  padding-top: 50px;
+}
